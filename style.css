@@ -1,0 +1,48 @@
+/*
+Theme Name: Portfolio
+Author: Matthias Wanner
+Author URI: http://www.matthiaswanner.fr/
+Description: My portfolio theme.
+Version: 0.1
+*/
+@import url("assets/styles/variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&family=Roboto+Mono&display=swap");
+@import url("assets/styles/header.css");
+@import url("assets/styles/front-page.css");
+@import url("assets/styles/footer.css");
+
+body {
+  background-color: blanchedalmond;
+  width: 100vw;
+  min-height: 100vh;
+  max-width: var(--body-max-width);
+  margin: auto;
+}
+
+html,
+ul,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: CALC(var(--height-header) + 20px);
+}

@@ -1,0 +1,23 @@
+:root {
+  --height-header: 90px;
+  --body-max-width: 100vw;
+  --footer-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --body-max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    --body-max-width: 950px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --body-max-width: 1200px;
+  }
+}

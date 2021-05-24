@@ -1,0 +1,30 @@
+.header-page {
+  background-color: white;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--body-max-width);
+  height: var(--height-header);
+  padding: 20px 10px 0;
+}
+
+.blog-name {
+  font-family: "Goblin One", cursive;
+  font-size: 1.5rem;
+}
+
+.blog-description {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-name {
+    font-size: 2rem;
+  }
+
+  .blog-description {
+    font-size: 1.5rem;
+    text-align: end;
+  }
+}
